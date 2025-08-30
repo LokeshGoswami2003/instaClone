@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Instagram UI Clone</title>
   </head>
   <body>
@@ -12,36 +15,180 @@
       <section id="sidebar">
         <img src="assets/insta-logo.svg" alt="instagram-logo" />
         <ul>
+          <li><img src="assets/home-icon.svg" alt="home" />Home</li>
+          <li><img src="assets/search-icon.svg" alt="search" />Search</li>
+          <li><img src="assets/explore-icon.svg" alt="explore" />Explore</li>
+          <li><img src="assets/reels-icon.svg" alt="reels" />Reels</li>
+          <li><img src="assets/messages-icon.svg" alt="messages" />Messages</li>
           <li>
-            <img src="assets/home-icon.svg" alt="home" />Home
+            <img
+              src="assets/notifications-icon.svg"
+              alt="notifications"
+            />Notifications
           </li>
-          <li>
-            <img src="assets/search-icon.svg" alt="search" />Search
-          </li>
-          <li>
-            <img src="assets/explore-icon.svg" alt="explore" />Explore
-          </li>
-          <li>
-            <img src="assets/reels-icon.svg" alt="reels" />Reels
-          </li>
-          <li>
-            <img src="assets/messages-icon.svg" alt="messages" />Messages
-          </li>
-          <li>
-            <img src="assets/notifications-icon.svg" alt="notifications" />Notifications
-          </li>
-          <li>
-            <img src="assets/create-icon.svg" alt="create" />Create
-          </li>
-          <li>
-            <img src="assets/profile-icon.svg" alt="profile" />Profile
-          </li>
-          <li>
-            <img src="assets/more-icon.svg" alt="more" />More
-          </li>
+          <li><img src="assets/create-icon.svg" alt="create" />Create</li>
+          <li><img src="assets/profile-icon.svg" alt="profile" />Profile</li>
+          <li><img src="assets/more-icon.svg" alt="more" />More</li>
         </ul>
       </section>
-      <section id="main-scrollable-container"></section>
+      <section id="main-scrollable-container">
+        <div id="story-section">
+          <div class="story">
+            <div class="stories-image">
+              <img src="assets/itsdougthepu.jpg" alt="story1" />
+            </div>
+            <p>itsdougthepu</p>
+          </div>
+          <div class="story">
+            <div class="stories-image">
+              <img src="assets/openaidalle.jpg" alt="story2" />
+            </div>
+            <p>openaidalle</p>
+          </div>
+          <div class="story">
+            <div class="stories-image">
+              <img src="assets/lewishamilton.jpg" alt="story3" />
+            </div>
+            <p>lewishamilton/p></p>
+          </div>
+
+          <div class="story">
+            <div class="stories-image">
+              <img src="assets/wahab.xyz.jpg" alt="story4" />
+            </div>
+            <p>wahab.xyz</p>
+          </div>
+          <div class="story">
+            <div class="stories-image">
+              <img src="assets/defavours.jpg" alt="story5" />
+            </div>
+            <p>defavours</p>
+          </div>
+          <div class="story">
+            <div class="stories-image">
+              <img src="assets/mkbhd.jpg" alt="story6" />
+            </div>
+            <p>mkbhd</p>
+          </div>
+        </div>
+        <footer>
+          <div id="user_profile">
+            <div id="user_profile_left">
+              <img src="assets/user-icon.jpg" alt="" />
+              <div>
+                <h4>upvox</h4>
+                <p>upvox</p>
+              </div>
+            </div>
+            <a href="#">Switch</a>
+          </div>
+          <div id="footer_suggestions">
+            <p>Suggestions For You</p>
+            <a href="#">See All</a>
+          </div>
+          <div id="user_suggestions">
+            <div class="suggestions_div">
+              <div class="suggestion_div_left">
+                <div class="suggestion_userimg"></div>
+                <div>
+                  <h4>imkir</h4>
+                  <p>Follows you</p>
+                </div>
+              </div>
+              <a href="#">Follow</a>
+            </div>
+            <div class="suggestions_div">
+              <div class="suggestion_div_left">
+                <div class="suggestion_userimg"></div>
+                <div>
+                  <h4>organic_al</h4>
+                  <p>Followed by chirag_singla17</p>
+                </div>
+              </div>
+              <a href="#">Follow</a>
+            </div>
+            <div class="suggestions_div">
+              <div class="suggestion_div_left">
+                <div class="suggestion_userimg"></div>
+                <div>
+                  <h4>im_gr</h4>
+                  <p>Followed by chirag_singla17</p>
+                </div>
+              </div>
+              <a href="#">Follow</a>
+            </div>
+            <div class="suggestions_div">
+              <div class="suggestion_div_left">
+                <div class="suggestion_userimg"></div>
+                <div>
+                  <h4>abh952</h4>
+                  <p>Follows you</p>
+                </div>
+              </div>
+              <a href="#">Follow</a>
+            </div>
+            <div class="suggestions_div">
+              <div class="suggestion_div_left">
+                <div class="suggestion_userimg"></div>
+                <div>
+                  <h4>sakbrl</h4>
+                  <p>Follows you</p>
+                </div>
+              </div>
+              <a href="#">Follow</a>
+            </div>
+          </div>
+          <div id="footer_links">
+            <a href="#">About •</a>
+            <a href="#">Help •</a>
+            <a href="#">Press •</a>
+            <a href="#">API •</a>
+            <a href="#">Jobs •</a>
+            <a href="#">Privacy •</a>
+            <a href="#">Terms •</a>
+            <a href="#">Locations •</a>
+            <a href="#">Language •</a>
+            <a href="#">Meta Verified</a>
+          </div>
+          <p id="footer_copyright">© 2024 INSTAGRAM FROM META</p>
+        </footer>
+        <section class="post">
+          <div class="post_header">
+            <div>
+              <div class="user_image">
+                <img src="assets/lewish.jpg" alt="lewish" />
+              </div>
+              <p class="header_username">lewishamilton</p>
+              <img src="assets/bluetic.svg" alt="bluetic" />
+              <p class="header_time">• 5h</p>
+            </div>
+            <img src="assets/threedots.svg" alt="threedots" />
+          </div>
+          <div class="post_image">
+            <img src="assets/race.jpg" alt="lewishpost" />
+          </div>
+          <div class="post_buttons">
+            <div>
+              <img src="assets/notifications-icon.svg" alt="like" />
+              <img src="assets/comment.svg" alt="comment" />
+              <img src="assets/share.svg" alt="share" />
+            </div>
+            <img src="assets/save.svg" alt="save" />
+          </div>
+          <div class="post_footer">
+            <p class="likes_count">741,368 likes</p>
+            <p class="caption">
+              <b>lewishamilton </b>Parabéns Ayrton, minha inspiração sempre 🇧🇷💫
+            </p>
+            <p class="translation_option">See translation</p>
+            <p class="comment_count">View all 13,384 comments</p>
+            <div>
+              <p>Add a comment...</p>
+              <img src="assets/smile.svg" alt="smile icon" />
+            </div>
+          </div>
+        </section>
+      </section>
     </div>
   </body>
 </html>
